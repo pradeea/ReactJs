@@ -13,6 +13,7 @@ export default axios.create({
 });
 
 //after this u need to write the followig code in the app.js
+//in below q is nothing but the query
 onTermSubmit=(term)=>{
         youtube.get('/search',{
             params:{
