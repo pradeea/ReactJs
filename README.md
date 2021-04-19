@@ -9,3 +9,5 @@ This Info Relates to Seasons Project
 5) if incase if the season is winter it will show as "BURR IT IS CHILLY"
 6) and some custom friendly interface is added 
 7) if incase the user denied the location a clean interface is also provided
+------------
+A new project is created
