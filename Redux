@@ -62,8 +62,11 @@ const policies =(listOfPolicies=[],action)=>{
   
   return listOfPolicies;
 }
+
+//we will use redux
 const {createStore,combineReducers}=Redux;
 
+//w
 const ourDepartments = combineReducers({
   accounting:accounting,
   claimHistory:claimHistory,
