@@ -73,7 +73,7 @@ const ourDepartments = combineReducers({
   policies:policies
 });
 
-//
+//with the help of dispatch we can access the state
 const store=createStore(ourDepartments);
 store.dispatch(createPolicy('Alex',20));
 
