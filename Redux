@@ -66,13 +66,14 @@ const policies =(listOfPolicies=[],action)=>{
 //we will use redux
 const {createStore,combineReducers}=Redux;
 
-//w
+//wrapping  the reducers in the centralised form
 const ourDepartments = combineReducers({
   accounting:accounting,
   claimHistory:claimHistory,
   policies:policies
 });
 
+//
 const store=createStore(ourDepartments);
 store.dispatch(createPolicy('Alex',20));
 
