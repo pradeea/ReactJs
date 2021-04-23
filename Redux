@@ -1,4 +1,4 @@
-
+//we have created action creators
 const createPolicy=(name,amount)=>{
   return(
         {type:"CREATE_POLICY",
@@ -30,6 +30,7 @@ const createClaim=(name,amountOfMoneyToCollect)=>{
         })
 }
 
+//this is reducers 
 const claimHistory=(oldListOfClaims=[],action)=>{
   if(action.type=== "CREATE_CLAIM")
     {
