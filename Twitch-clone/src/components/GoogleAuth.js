@@ -3,6 +3,7 @@ import React from 'react';
 class GoogleAuth extends React.Component {
   state = { isSignedIn: null };
 
+//here google authentication varies that means the clientId changes 
   componentDidMount() {
     window.gapi.load('client:auth2', () => {
       window.gapi.client
