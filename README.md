@@ -10,4 +10,4 @@ This Info Relates to Seasons Project
 6) and some custom friendly interface is added 
 7) if incase the user denied the location a clean interface is also provided
 ------------
-A new project is created and that project
+A new project is created and that project is also known as streams project
