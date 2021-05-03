@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Json-server
+for json-server to run follow npx json-server --watch -p 3001 db.json
 
 ## Available Scripts
 
