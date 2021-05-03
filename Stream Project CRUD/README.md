@@ -1,6 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Json-server
 for json-server to run follow npx json-server --watch -p 3001 db.json
+3001 is the port of json server
+3000 is the port of the react application
 
 ## Available Scripts
 
