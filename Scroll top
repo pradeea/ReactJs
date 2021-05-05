@@ -67,3 +67,8 @@ export default Scroll
 //install 
 npm install --save @material-ui/core
 npm install --save @material-ui/icons
+
+//import the scroll in App.js
+
+//call the scroll 
+<Scroll showBelow={250} />
