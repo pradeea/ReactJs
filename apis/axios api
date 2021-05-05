@@ -1,8 +1,11 @@
 //syntax for axios
 const response=await youtube.get('/search',{params:{ q:term} } )
 		                axios.create({baseURL,params:{} })	
-				
-//
+
+
+//in the youtube api where we create axios create
+
+//in App.js
 const KEY='AIzaSyCxgU-BXEwud5uf5YeeQRM4tdN_VO5Q40s';
 export default axios.create({
     baseURL:'https://www.googleapis.com/youtube/v3',
