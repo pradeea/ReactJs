@@ -27,3 +27,10 @@ export default axios.create({
 });
 
 //json placeholder api call with the help of axios
+ state={term:''}
+    componentDidMount=async()=>
+    {    
+       const response=await axios.get('https://jsonplaceholder.typicode.com/todos/1');
+        this.setState({term:response.data})
+        console.log(this.state.term);    
+    }
