@@ -26,4 +26,4 @@ export default axios.create({
     }
 });
 
-//json placeholder api call with the 
+//json placeholder api call with the help of axios
