@@ -1,3 +1,4 @@
+# the main t=aim of this project is to show the data in the reducers in the display page with the help of redux
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
