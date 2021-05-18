@@ -21,3 +21,5 @@ export default combineReducers({
   songs: songsReducer,
   selectedSong: selectedSongReducer
 });
+//as shown above whatever the data is shown in the array u can just call
+//<div> Name:{this.props.data[0].name}</div>
