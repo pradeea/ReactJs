@@ -15,10 +15,10 @@ import {connect} from 'react-redux'
 return (       
   <div>
       <h1>The Details:</h1>
-      <p>
-          Name: {data.name}
+      <p>//since it is the array we will use data[0]
+          Name: {data[0].name}
           <br/>
-          Email:{data.email}            
+          Email:{data[1].email}            
       </p>
   </div>
 
