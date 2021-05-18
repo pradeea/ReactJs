@@ -5,12 +5,12 @@ const dataReducer = () => {
   return [{ name: "PRADEEP" }, { city: "HYDERABAD" }];
 };
 
-const LoginReducer = (state = "", action) => {
+const LoginReducer = (enterdValue = "ur excellency", action) => {
   if (action.type === "NAME") {
-    return (state = action.payload);
+    return action.payload;
   }
 
-  return state;
+  return enterdValue;
 };
 
 export default combineReducers({

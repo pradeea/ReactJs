@@ -7,7 +7,7 @@ const LoginMaintainence = ({ data }) => {
   }
   return (
     <div>
-      <h1>Site Maintained By:</h1>
+      <h1>Website Under Maintenance By:</h1>
       <h2>Name: {data[0].name}</h2>
       <h3>From: {data[1].city}</h3>
     </div>
