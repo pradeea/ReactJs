@@ -23,3 +23,7 @@ export default combineReducers({
 });
 //as shown above whatever the data is shown in the array u can just call
 //<div> Name:{this.props.data[0].name}</div>
+//in the MapStateToProps we will use the 
+// const MapStateToProps = (state) => {
+//   return { data:state.nameList };
+// };
